@@ -2,12 +2,11 @@
 import RBush from 'rbush';
 
 // This does not work - 
-// // 'Queue is not a constructor' thrown from inside rbush-knn
-// import RBush from 'rbush-knn';
+// 'Queue is not a constructor' thrown from inside rbush-knn
+import knn from 'rbush-knn';
 
-// This does work
-const knn = require('rbush-knn');
-
+// This also does not work
+//const knn = require('rbush-knn');
 const tree = new RBush();
 
 const item = {
